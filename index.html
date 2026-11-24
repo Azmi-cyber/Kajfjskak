@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MegaPlay Player</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      background: #000;
+      overflow: hidden;
+    }
+
+    .player {
+      width: 100%;
+      height: 100dvh;
+      background: #000;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="player">
+    <iframe
+      src="https://megaplay.buzz/stream/mal/235/1/sub"
+      allowfullscreen
+      scrolling="no"
+      allow="autoplay; fullscreen; picture-in-picture">
+    </iframe>
+  </div>
+
+</body>
+</html>
